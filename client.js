@@ -6,7 +6,7 @@ const {
   closeConnection,
 } = require("./serverManager");
 
-const IP = "172.31.40.235";
+const IP = "18.184.76.188";
 const PORT = 4242;
 
 const socket = net.createConnection({ port: PORT, host: IP }, async () => {
