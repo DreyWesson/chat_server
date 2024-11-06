@@ -2,7 +2,7 @@ const net = require("net");
 const { removeClient, addClient, handleMessage } = require("./clientManager");
 
 const server = net.createServer();
-const IP = "127.0.0.1";
+const IP = "172.31.40.235";
 const PORT = 4242;
 
 server.on("connection", (socket) => {
